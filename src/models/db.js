@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
-    host: 'localhost', //AQUI IRIA LA URL DEL DOMINIO WEB
-    user: 'root',
-    password: '',
-    database: 'project_jwt'
+    host: 'srv868.hstgr.io', //AQUI IRIA LA URL DEL DOMINIO WEB
+    user: 'u428545357_admin',
+    password: 'IC1t+wd+Vf~2',
+    database: 'u428545357_pfumg'
 });
 
 

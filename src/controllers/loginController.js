@@ -1,5 +1,5 @@
-//const connection = require('../models/db');
-const connection = require('../models/pool');
+const connection = require('../models/db');
+//const connection = require('../models/pool');
 const jwt = require('jsonwebtoken');
 
 module.exports.login = (req, res) =>{
